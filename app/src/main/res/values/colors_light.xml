@@ -9,4 +9,8 @@
     <color name="colorSecondaryLight">#af00</color>
     <color name="colorSecondaryVariantLight">#f500</color>
     <color name="colorOnSecondaryLight">@color/black</color>
+
+    // customization here
+    <color name="buttonRippleColorLight">#f120</color>
+    <color name="textPrimaryLight">#0E0E0E</color>
 </resources>

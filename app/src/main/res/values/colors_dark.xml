@@ -8,4 +8,8 @@
     <color name="colorSecondaryDark">#af00</color>
     <color name="colorSecondaryVariantDark">#f500</color>
     <color name="colorOnSecondaryDark">@color/black</color>
+
+    // customization here
+    <color name="buttonRippleColorDark">#f100</color>
+    <color name="textPrimaryDark">#F4EFEF</color>
 </resources>

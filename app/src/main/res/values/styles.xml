@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="StyleX" />
+
+    <style name="StyleX.Text">
+        <item name="android:textColor">?textPrimary</item>
+    </style>
+
+    <!--region Headline-->
+    <style name="StyleX.Text.Headline">
+        <item name="android:textColor">?textPrimary</item>
+    </style>
+
+    <style name="StyleX.Text.Headline.H1">
+        <item name="android:textSize">96sp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:letterSpacing">-0.0156</item>
+    </style>
+
+    <style name="StyleX.Text.Headline.H2">
+        <item name="android:textSize">60sp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:letterSpacing">-0.0083</item>
+    </style>
+
+    <style name="StyleX.Text.Headline.H3">
+        <item name="android:textSize">48sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="StyleX.Text.Headline.H4">
+        <item name="android:textSize">34sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:letterSpacing">0.0074</item>
+    </style>
+
+    <style name="StyleX.Text.Headline.H5">
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="StyleX.Text.Headline.H6">
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:letterSpacing">0.0075</item>
+    </style>
+    <!--region Headline-->
+
+    <!--region Subtitle-->
+    <style name="StyleX.Text.Subtitle" />
+
+    <style name="StyleX.Text.Subtitle.S1">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:letterSpacing">0.0094</item>
+    </style>
+
+    <style name="StyleX.Text.Subtitle.S1.Medium">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:letterSpacing">0.0094</item>
+    </style>
+
+    <style name="StyleX.Text.Subtitle.S2">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:letterSpacing">0.0071</item>
+    </style>
+    <!--endregion Subtitle-->
+
+    <!--region Body-->
+    <style name="StyleX.Text.Body">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="StyleX.Text.Body.B1">
+        <item name="android:textSize">16sp</item>
+        <item name="android:letterSpacing">0.0275</item>
+    </style>
+
+    <style name="StyleX.Text.Body.B2">
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">0.0178</item>
+    </style>
+    <!--endregion Body-->
+
+    <!--region Button-->
+    <style name="StyleX.Text.Button">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:letterSpacing">0.0893</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <!--endregion Button-->
+
+    <!--region Caption-->
+    <style name="StyleX.Text.Caption">
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:letterSpacing">0.0333</item>
+    </style>
+
+    <style name="StyleX.Text.Caption.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="StyleX.Text.Caption.C1">
+        <item name="android:textSize">10sp</item>
+    </style>
+    <!--endregion Caption-->
+
+
+    <style name="StyleX.Button.Secondary" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:textColor">?colorPrimary</item>
+        <item name="strokeColor">?colorPrimary</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="rippleColor">?buttonRippleColor</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:textAppearance">@style/StyleX.Text.Button</item>
+    </style>
+</resources>

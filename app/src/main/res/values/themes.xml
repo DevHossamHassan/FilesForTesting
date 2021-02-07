@@ -26,7 +26,9 @@
         <item name="colorOnSecondary">@color/colorOnSecondaryDark</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+
         <!-- Customize your theme here. -->
+        <item name="buttonRippleColor">@color/buttonRippleColorDark</item>
     </style>
 
     <style name="Theme.FilesForTesting.Light" parent="Theme.MaterialComponents.DayNight">
@@ -40,7 +42,9 @@
         <item name="colorOnSecondary">@color/colorOnSecondaryLight</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+
         <!-- Customize your theme here. -->
+        <item name="buttonRippleColor">@color/buttonRippleColorLight</item>
     </style>
 
 </resources>
