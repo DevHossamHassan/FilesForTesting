@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary brand color. -->
+    <color name="colorPrimaryDark">#aaa</color>
+    <color name="colorPrimaryVariantDark">#000</color>
+    <color name="colorOnPrimaryDark">@color/black</color>
+    <!-- Secondary brand color. -->
+    <color name="colorSecondaryDark">#af00</color>
+    <color name="colorSecondaryVariantDark">#f500</color>
+    <color name="colorOnSecondaryDark">@color/black</color>
+</resources>

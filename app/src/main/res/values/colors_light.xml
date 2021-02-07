@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Primary brand color. -->
+    <color name="colorPrimaryLight">#fd40</color>
+    <color name="colorPrimaryVariantLight">#ff20</color>
+    <color name="colorOnPrimaryLight">@color/white</color>
+    <!-- Secondary brand color. -->
+    <color name="colorSecondaryLight">#af00</color>
+    <color name="colorSecondaryVariantLight">#f500</color>
+    <color name="colorOnSecondaryLight">@color/black</color>
+</resources>
