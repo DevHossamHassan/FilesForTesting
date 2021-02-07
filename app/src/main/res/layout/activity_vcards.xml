@@ -7,4 +7,42 @@
     tools:context=".VCardsActivity">
 
 
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnGenerateVCardV4"
+        style="@style/StyleX.Button.Secondary"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="VCards V4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.36"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnGenerateVCardV3"
+        style="@style/StyleX.Button.Secondary"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="VCards V3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnGenerateVCardV4"
+        app:layout_constraintVertical_bias="0.139"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnGenerateVCardV21"
+        style="@style/StyleX.Button.Secondary"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="VCards V2.1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnGenerateVCardV3"
+        app:layout_constraintVertical_bias="0.156"
+        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>
