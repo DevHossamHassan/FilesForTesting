@@ -29,6 +29,7 @@
 
         <!-- Customize your theme here. -->
         <item name="buttonRippleColor">@color/buttonRippleColorDark</item>
+        <item name="textPrimary">@color/textPrimaryDark</item>
     </style>
 
     <style name="Theme.FilesForTesting.Light" parent="Theme.MaterialComponents.DayNight">
@@ -45,6 +46,7 @@
 
         <!-- Customize your theme here. -->
         <item name="buttonRippleColor">@color/buttonRippleColorLight</item>
+        <item name="textPrimary">@color/textPrimaryLight</item>
     </style>
 
 </resources>
